@@ -133,8 +133,7 @@ void FTdsImpl::InitSdk()
 	}
 
 	FTapBootstrap::Init(TapConfig);
-	
-	Billboard->Init(TapConfig);//@TODO 暂时有bug
+	Billboard->Init(TapConfig);
 
 	FAAUConfig AntiAddictionConfig;
 	AntiAddictionConfig.ClientID = Config->ClientId;
@@ -154,16 +153,6 @@ void FTdsImpl::InitSdk()
 		MomentConfig.ClientID = Config->ClientId;
 		MomentConfig.AppID = Config->AppId;
 		FTapMoment::Init(MomentConfig);
-	}
-
-	if (!bAchievementInitialized)
-	{
-		AchievementsPtr->InitData(
-			FSimpleDelegate::CreateLambda([this]()
-			{
-				bAchievementInitialized = true;
-			}),
-			FTUError::FDelegate());
 	}
 	
 	TUSettings::SetUILevel(TDS_WIDGET_Z_ORDER);
@@ -420,6 +409,20 @@ void FTdsImpl::SetupAchievement(UTexture2D* Icon, const FText& Title)
 		AchievementsPtr->SetApplicationIcon(Icon);
 		AchievementsPtr->SetApplicationName(Title);
 	}
+}
+
+void FTdsImpl::InitAchievementData(TSharedRef<FTdsPlayer> InPlayer, const FSimpleTdsDelegate& InCallback)
+{
+	AchievementsPtr->InitData(
+		FSimpleDelegate::CreateLambda([this, InCallback]()
+		{
+			bAchievementInitialized = true;
+			InCallback.ExecuteIfBound(nullptr);
+		}),
+		FTUError::FDelegate::CreateLambda([InCallback](const FTUError& Error)
+		{
+			InCallback.ExecuteIfBound(MakeError(Error));
+		}));
 }
 
 void FTdsImpl::AchievementReach(const FString& OpenId)

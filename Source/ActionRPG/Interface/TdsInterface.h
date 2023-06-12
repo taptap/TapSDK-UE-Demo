@@ -230,6 +230,8 @@ public:
 
 	virtual void SetupAchievement(UTexture2D* Icon, const FText& Title) {}
 
+	virtual void InitAchievementData(TSharedRef<FTdsPlayer> InPlayer, const FSimpleTdsDelegate& InCallback) {}
+	
 	virtual void AchievementReach(const FString& OpenId){}
 	
 	virtual void AchievementMakeStep(const FString& OpenId, int32 Step){}

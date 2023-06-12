@@ -79,6 +79,7 @@ public:
 	uint8 bTdsAccountReady : 1;
 	uint8 bTdsAntiAddictionReady : 1;
 	uint8 bTdsSupportReady : 1;
+	uint8 bTdsAchievement : 1;
 	
 	UFUNCTION(BlueprintCallable)
 	void StartTds();
@@ -92,6 +93,8 @@ public:
 	void TdsSetupAntiAddiction();
 
 	void TdsSetupSupport();
+
+	void TdsSetupAchievement();
 
 	void TdsLoginSuccess(TSharedRef<FTdsPlayer> Player);
 

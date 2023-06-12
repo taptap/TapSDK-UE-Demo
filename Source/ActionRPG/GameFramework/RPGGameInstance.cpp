@@ -21,6 +21,7 @@ URPGGameInstance::URPGGameInstance()
 	bTdsAccountReady = false;
 	bTdsAntiAddictionReady = false;
 	bTdsSupportReady = false;
+	bTdsAchievement = false;
 }
 
 void URPGGameInstance::StartTds()
@@ -188,6 +189,30 @@ void URPGGameInstance::TdsSetupSupport()
 			}));
 }
 
+void URPGGameInstance::TdsSetupAchievement()
+{
+	if(bTdsAchievement)
+	{
+		return;
+	}
+	
+	check(GTdsInterface);
+	
+	GTdsInterface->InitAchievementData(
+		GetTdsPlayer().ToSharedRef(),
+		FSimpleTdsDelegate::CreateWeakLambda(this, [this](TSharedPtr<FTdsError> Error)
+		{
+			if (Error)
+			{
+				bTdsAchievement = false;
+			}
+			else
+			{
+				bTdsAchievement = true;
+			}
+		}));
+}
+
 void URPGGameInstance::TdsLoginSuccess(TSharedRef<FTdsPlayer> Player)
 {
 	bTdsAccountReady = true;
@@ -201,6 +226,7 @@ void URPGGameInstance::TdsLoginSuccess(TSharedRef<FTdsPlayer> Player)
 	
 	TdsSetupAntiAddiction();
 	TdsSetupSupport();
+	TdsSetupAchievement();
 }
 
 void URPGGameInstance::TdsLoginFail(TSharedRef<FTdsError> Error)
@@ -218,7 +244,8 @@ void URPGGameInstance::TdsLogout()
 		bTdsAccountReady = false;
 		bTdsAntiAddictionReady = false;
 		bTdsSupportReady = false;
-
+		bTdsAchievement = false;
+		
 		if (UTitleWidget* UI = ATdsHud::FindMenu<UTitleWidget>(this, ETapMenuType::Title))
 		{
 			UI->StartLogin();

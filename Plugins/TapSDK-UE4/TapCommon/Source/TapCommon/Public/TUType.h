@@ -58,7 +58,6 @@ struct TAPCOMMON_API FTUConfig
 	static TSharedPtr<FTUConfig>& Get();
 
 	FTUConfig() = default;
-	FTUConfig(const FTUConfig& Other);
 
 	struct FTapDB
 	{

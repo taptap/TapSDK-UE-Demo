@@ -66,6 +66,8 @@ public:
 	
 
 	virtual void SetupAchievement(UTexture2D* Icon, const FText& Title) override;
+
+	virtual void InitAchievementData(TSharedRef<FTdsPlayer> InPlayer, const FSimpleTdsDelegate& InCallback) override;
 	
 	virtual void AchievementReach(const FString& OpenId) override;
 	
