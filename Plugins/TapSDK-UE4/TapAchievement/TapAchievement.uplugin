@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 31804001,
+	"VersionName": "3.18.4",
+	"FriendlyName": "TapAchievement",
+	"Description": "TapTap Achievement",
+	"Category": "TapTap",
+	"CreatedBy": "TapTap Develop Service",
+	"CreatedByURL": "",
+	"DocsURL": "https://developer.taptap.com/docs/sdk/achievement/features/",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TapAchievement",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "TapCommon",
+			"Enabled": true
+		},
+		{
+			"Name": "TapDB",
+			"Enabled": true
+		},
+		{
+			"Name": "TapBootstrap",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 31804001,
+	"VersionName": "3.18.4",
+	"FriendlyName": "AntiAddiction",
+	"Description": "",
+	"Category": "TapTap",
+	"CreatedBy": "TapTap",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AntiAddiction",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "TapCommon",
+			"Enabled": true
+		}
+	]
+}

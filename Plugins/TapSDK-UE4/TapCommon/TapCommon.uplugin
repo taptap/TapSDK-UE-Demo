@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 31804001,
+	"VersionName": "3.18.4",
+	"FriendlyName": "TapCommon",
+	"Description": "TapTap Common",
+	"Category": "TapTap",
+	"CreatedBy": "TapTap Develop Service",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TapCommon",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}
