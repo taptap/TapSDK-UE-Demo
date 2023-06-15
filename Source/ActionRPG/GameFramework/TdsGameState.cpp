@@ -44,6 +44,10 @@ void ATdsGameState::EndWave_Implementation()
 			ATdsHud::ShowMenu(this, ETapMenuType::WaveEnd);
 		}
 	}
+	if (HasAuthority())
+	{
+		GetWorldTimerManager().PauseTimer(LiftTimeHandle);
+	}
 }
 
 void ATdsGameState::EndGame_Implementation(bool bSuccess)
@@ -163,5 +167,4 @@ void ATdsGameState::OnRep_LiftTime()
 		OnTimeOver.ExecuteIfBound();
 	}
 }
-
 

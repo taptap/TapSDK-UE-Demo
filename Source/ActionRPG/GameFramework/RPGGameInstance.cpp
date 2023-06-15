@@ -264,6 +264,10 @@ void URPGGameInstance::TdsHandleAntiAddictionMessage(EAntiAddictionMessageType M
 		if (TdsPlayer)
 		{
 			GTdsInterface->GetAntiAddictionPlayerInfo(TdsPlayer.ToSharedRef());
+			if (UTitleWidget* UI = ATdsHud::FindMenu<UTitleWidget>(this, ETapMenuType::Title))
+			{
+				UI->UpdateAntiAddictionWithTdsUser(*TdsPlayer);
+			}
 		}
 		break;
 	case EAntiAddictionMessageType::Exited:
@@ -329,7 +333,10 @@ void URPGGameInstance::SocketClientLogout()
 		UE_LOG(LogActionRPG, Warning, TEXT("%s SayHello Send failed."), ANSI_TO_TCHAR(__FUNCTION__));
 		return;
 	}
-	HandleLeaveSession();
+	if (UTitleWidget* UI = ATdsHud::FindMenu<UTitleWidget>(this, ETapMenuType::Title))
+	{
+		UI->HandleLeaveSession();
+	}
 }
 
 void URPGGameInstance::StartRefreshGameSessions()
@@ -340,7 +347,7 @@ void URPGGameInstance::StartRefreshGameSessions()
 	}
 	if (UWorld* World = GetWorld())
 	{
-		World->GetTimerManager().SetTimer(RefreshTimer, this, &URPGGameInstance::ClientRefreshGameSessions, 3.f, true);
+		World->GetTimerManager().SetTimer(RefreshTimer, this, &URPGGameInstance::ClientRefreshGameSessions, 3.f, true, 0.f);
 	}
 }
 
@@ -441,7 +448,10 @@ void URPGGameInstance::HandleSocketCallback(EMessageType Type, TSharedPtr<FJsonO
 			FRefreshGameSessionWrapper Wrapper;
 			if (FJsonObjectConverter::JsonObjectToUStruct(JsonObject.ToSharedRef(), &Wrapper))
 			{
-				HandleRefreshSessions(Wrapper.Sessions);
+				if (UTitleWidget* UI = ATdsHud::FindMenu<UTitleWidget>(this, ETapMenuType::Title))
+				{
+					UI->RefreshSessions(Wrapper.Sessions);
+				}
 			}
 		}
 		break;
@@ -458,13 +468,19 @@ void URPGGameInstance::HandleSocketCallback(EMessageType Type, TSharedPtr<FJsonO
 				FDSInfo DSInfo;
 				if (FJsonObjectConverter::JsonObjectToUStruct(JsonObject.ToSharedRef(), &DSInfo))
 				{
-					HandleJoinSession(DSInfo);
+					if (UTitleWidget* UI = ATdsHud::FindMenu<UTitleWidget>(this, ETapMenuType::Title))
+					{
+						UI->HandleJoinSession(DSInfo);
+					}
 				}
 			}
 		}
 		break;
 	case LeaveSessionResponse:
-		HandleLeaveSession();
+		if (UTitleWidget* UI = ATdsHud::FindMenu<UTitleWidget>(this, ETapMenuType::Title))
+		{
+			UI->HandleLeaveSession();
+		}
 		break;
 	default: ;
 	}
@@ -503,6 +519,17 @@ void URPGGameInstance::Init()
 	}
 
 	FNetworkVersion::GetLocalNetworkVersionOverride.BindUObject(this, &URPGGameInstance::GetLocalVersion);
+}
+
+void URPGGameInstance::OnStart()
+{
+	if (UWorld* World = GetWorld())
+	{
+		if (World->WorldType != EWorldType::PIE && World->WorldType != EWorldType::Editor)
+		{
+			FInternationalization::Get().SetCurrentCulture(TEXT("zh-CN"));
+		}
+	}
 }
 
 void URPGGameInstance::Shutdown()

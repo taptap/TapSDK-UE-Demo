@@ -1,0 +1,751 @@
+﻿# Game Chinese (China) translation.
+# Copyright Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2023-06-15 05:43\n"
+"PO-Revision-Date: 2023-06-15 05:43\n"
+"Language-Team: \n"
+"Language: zh-CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Key:	00C01DB74E7D61AF133227ADA42C5690
+#. SourceLocation:	/Game/Items/Pickups/WeaponPickups/Assets/Weapon_PickUp.Weapon_PickUp.ItemName
+#: /Game/Items/Pickups/WeaponPickups/Assets/Weapon_PickUp.Weapon_PickUp.ItemName
+msgctxt ",00C01DB74E7D61AF133227ADA42C5690"
+msgid "Weapon PickUp"
+msgstr "武器拾取"
+
+#. Key:	07D461A84B283776108D449C5A03BEC6
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.MomentButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.MomentButton.ContentText
+msgctxt ",07D461A84B283776108D449C5A03BEC6"
+msgid "动态"
+msgstr ""
+
+#. Key:	0ECCA0B14FB48969A81FA6A833577787
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.LeaveButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.LeaveButton.ContentText
+msgctxt ",0ECCA0B14FB48969A81FA6A833577787"
+msgid "离开"
+msgstr ""
+
+#. Key:	0F8A1CA447B53815E38CF88A954BE20C
+#. SourceLocation:	/Game/Items/Skills/Skill_FireWave.Skill_FireWave.ItemDescription
+#: /Game/Items/Skills/Skill_FireWave.Skill_FireWave.ItemDescription
+msgctxt ",0F8A1CA447B53815E38CF88A954BE20C"
+msgid "A Wave Of Flames"
+msgstr "一波火焰"
+
+#. Key:	10DF669F43C9658F82D17CA65C94BF85
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardType_Month.DisplayName
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardType_Month.DisplayName
+msgctxt ",10DF669F43C9658F82D17CA65C94BF85"
+msgid "月"
+msgstr ""
+
+#. Key:	11A2808D4AC30EEAE4F8ED8BB4724CA4
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardCategory_Kill.DisplayName
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardCategory_Kill.DisplayName
+msgctxt ",11A2808D4AC30EEAE4F8ED8BB4724CA4"
+msgid "击杀榜"
+msgstr ""
+
+#. Key:	1236E0B041EF38CE8000489650435B04
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_WaveEnd.WB_WaveEnd_C:ExecuteUbergraph_WB_WaveEnd [Script Bytecode]
+#: /Game/Blueprints/WidgetBP/WB_WaveEnd.WB_WaveEnd_C:ExecuteUbergraph_WB_WaveEnd [Script Bytecode]
+msgctxt ",1236E0B041EF38CE8000489650435B04"
+msgid "WAVE {1} COMPLETE"
+msgstr "波 {1} 完成"
+
+#. Key:	13FCB55E4CBBA728E004368007BD800A
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_SkipIntro.WB_SkipIntro_C:ExecuteUbergraph_WB_SkipIntro [Script Bytecode]
+#: /Game/Blueprints/WidgetBP/WB_SkipIntro.WB_SkipIntro_C:ExecuteUbergraph_WB_SkipIntro [Script Bytecode]
+msgctxt ",13FCB55E4CBBA728E004368007BD800A"
+msgid "Touch to Skip Intro"
+msgstr "触摸以跳过介绍"
+
+#. Key:	16A6612E48F4C15D9B28DA8F51655D6E
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Axe.Weapon_Axe.ItemDescription
+#: /Game/Items/Weapons/Weapon_Axe.Weapon_Axe.ItemDescription
+msgctxt ",16A6612E48F4C15D9B28DA8F51655D6E"
+msgid "Edges of death"
+msgstr "死亡边缘"
+
+#. Key:	19B6CCDF412F2286223E4D84D49038AC
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TdsLogoutButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TdsLogoutButton.ContentText
+msgctxt ",19B6CCDF412F2286223E4D84D49038AC"
+msgid "切换账号"
+msgstr ""
+
+#. Key:	1A16487940EFB702962400A6BF8FE71F
+#. SourceLocation:	/Game/Items/Skills/Skill_FireWave.Skill_FireWave.ItemName
+#: /Game/Items/Skills/Skill_FireWave.Skill_FireWave.ItemName
+msgctxt ",1A16487940EFB702962400A6BF8FE71F"
+msgid "Fire Wave"
+msgstr "火波"
+
+#. Key:	222818744FB7E79AC608E59E93D8D4C7
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Sword_2.Weapon_Sword_2.ItemName
+#: /Game/Items/Weapons/Weapon_Sword_2.Weapon_Sword_2.ItemName
+msgctxt ",222818744FB7E79AC608E59E93D8D4C7"
+msgid "Talon Sword"
+msgstr "利爪剑"
+
+#. Key:	2376646D438CBA25EF8561A1FA88B66A
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_WaveStart.WB_WaveStart_C:ExecuteUbergraph_WB_WaveStart [Script Bytecode]
+#: /Game/Blueprints/WidgetBP/WB_WaveStart.WB_WaveStart_C:ExecuteUbergraph_WB_WaveStart [Script Bytecode]
+msgctxt ",2376646D438CBA25EF8561A1FA88B66A"
+msgid "WAVE {1}"
+msgstr "波{1}"
+
+#. Key:	238531B74DD0A4466C1CF69CD63BBA2B
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock.Text
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock.Text
+msgctxt ",238531B74DD0A4466C1CF69CD63BBA2B"
+msgid "月"
+msgstr ""
+
+#. Key:	26998F98459FF1691D3A4B871A787707
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Inventory/WB_PurchaseItem.WB_PurchaseItem_C:ExecuteUbergraph_WB_PurchaseItem [Script Bytecode]
+#: /Game/Blueprints/WidgetBP/Inventory/WB_PurchaseItem.WB_PurchaseItem_C:ExecuteUbergraph_WB_PurchaseItem [Script Bytecode]
+msgctxt ",26998F98459FF1691D3A4B871A787707"
+msgid "{1} souls"
+msgstr "{1}个灵魂"
+
+#. Key:	26A24B714290B8A03DDBE3B6539F39F3
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardType_Day.DisplayName
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardType_Day.DisplayName
+msgctxt ",26A24B714290B8A03DDBE3B6539F39F3"
+msgid "日"
+msgstr ""
+
+#. Key:	28405666464B13B3730B0594BB4B584C
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Inventory/WB_Equipment.WB_Equipment_C:WidgetTree.TextBlock_74.Text
+#: /Game/Blueprints/WidgetBP/Inventory/WB_Equipment.WB_Equipment_C:WidgetTree.TextBlock_74.Text
+msgctxt ",28405666464B13B3730B0594BB4B584C"
+msgid "INVENTORY"
+msgstr "库存"
+
+#. Key:	2A8E08054283E3BA61BCFBA10022B0EC
+#. SourceLocation:	/Game/Items/Skills/Skill_FireBall.Skill_FireBall.ItemDescription
+#: /Game/Items/Skills/Skill_FireBall.Skill_FireBall.ItemDescription
+msgctxt ",2A8E08054283E3BA61BCFBA10022B0EC"
+msgid "A Ball Of Flame"
+msgstr "火球"
+
+#. Key:	2AEA16EE49B1E0507121C19ABA45DEDA
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock_11.Text
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock_11.Text
+msgctxt ",2AEA16EE49B1E0507121C19ABA45DEDA"
+msgid "关卡"
+msgstr ""
+
+#. Key:	2F9A04804458362AD7EEA282D40361A1
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock_12.Text
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock_12.Text
+msgctxt ",2F9A04804458362AD7EEA282D40361A1"
+msgid "击杀"
+msgstr ""
+
+#. Key:	303793B74A2CCB8540C0A786C185DABF
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Sword_3.Weapon_Sword_3.ItemDescription
+#: /Game/Items/Weapons/Weapon_Sword_3.Weapon_Sword_3.ItemDescription
+msgctxt ",303793B74A2CCB8540C0A786C185DABF"
+msgid "Legendary Sword"
+msgstr "传说之剑"
+
+#. Key:	3125285F427A73BB1FB258B163307BF3
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.EnglishButton.ButtonText
+#: /Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.EnglishButton.ButtonText
+msgctxt ",3125285F427A73BB1FB258B163307BF3"
+msgid "ENGLISH"
+msgstr "英语"
+
+#. Key:	33491717449363BBE4C15FAEFB6D2847
+#. SourceLocation:	/Game/Items/Skills/Skill_Meteor_2.Skill_Meteor_2.ItemDescription
+#: /Game/Items/Skills/Skill_Meteor_2.Skill_Meteor_2.ItemDescription
+msgctxt ",33491717449363BBE4C15FAEFB6D2847"
+msgid "Open The Skies"
+msgstr "开天辟地"
+
+#. Key:	352C7EE34D3CB59AD4EE4F83121C5234
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.JoinButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.JoinButton.ContentText
+msgctxt ",352C7EE34D3CB59AD4EE4F83121C5234"
+msgid "加入"
+msgstr ""
+
+#. Key:	3B20931D4E375827EB4B01963190A520
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.TextBlock_2.Text
+#: /Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.TextBlock_2.Text
+msgctxt ",3B20931D4E375827EB4B01963190A520"
+msgid "Music"
+msgstr "音乐"
+
+#. Key:	3CE72C1346E3A17A0EDCF886D2082BD5
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_InGame_Finish.WB_InGame_Finish_C:WidgetTree.TextGameOver.Text
+#: /Game/Blueprints/WidgetBP/WB_InGame_Finish.WB_InGame_Finish_C:WidgetTree.TextGameOver.Text
+msgctxt ",3CE72C1346E3A17A0EDCF886D2082BD5"
+msgid "Game Over"
+msgstr "游戏结束"
+
+#. Key:	3E35D14C45F281C3E9FC02974464C8FA
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.TextBlock_366.Text
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.TextBlock_366.Text
+msgctxt ",3E35D14C45F281C3E9FC02974464C8FA"
+msgid "Back"
+msgstr "返回"
+
+#. Key:	4070EC22460F4B62F5B8D7BFF9002579
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.StrandAloneButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.StrandAloneButton.ContentText
+msgctxt ",4070EC22460F4B62F5B8D7BFF9002579"
+msgid "单人游戏"
+msgstr ""
+
+#. Key:	43DD8FE14C690C8C0BD3548A84BBCAA4
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Inventory/WB_PurchaseConfirm.WB_PurchaseConfirm_C:WidgetTree.TextBlock_0.Text
+#: /Game/Blueprints/WidgetBP/Inventory/WB_PurchaseConfirm.WB_PurchaseConfirm_C:WidgetTree.TextBlock_0.Text
+msgctxt ",43DD8FE14C690C8C0BD3548A84BBCAA4"
+msgid "Confirm Purchase"
+msgstr "确认购买"
+
+#. Key:	45B248AF45069E20D7E20A8136C0FB1C
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TdsBillboardButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TdsBillboardButton.ContentText
+msgctxt ",45B248AF45069E20D7E20A8136C0FB1C"
+msgid "公告"
+msgstr ""
+
+#. Key:	495A046E4CCFE6D7831012809C7DAC90
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardType_Total.DisplayName
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardType_Total.DisplayName
+msgctxt ",495A046E4CCFE6D7831012809C7DAC90"
+msgid "总计"
+msgstr ""
+
+#. Key:	49A3B87F4F548DD0CF98FFA66E96B63E
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.StartButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.StartButton.ContentText
+msgctxt ",49A3B87F4F548DD0CF98FFA66E96B63E"
+msgid "开始"
+msgstr ""
+
+#. Key:	49B0073A4CD43BEDF7C73B94F88DE0CE
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.AchievementButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.AchievementButton.ContentText
+msgctxt ",49B0073A4CD43BEDF7C73B94F88DE0CE"
+msgid "成就"
+msgstr ""
+
+#. Key:	4E28B26D42ED112E64698EB7B8B9CC6B
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel_C:WidgetTree.CurrencyLabel.Text
+#: /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel_C:WidgetTree.CurrencyLabel.Text
+msgctxt ",4E28B26D42ED112E64698EB7B8B9CC6B"
+msgid " SOULS"
+msgstr "灵魂"
+
+#. Key:	4EB7B26B45162D90F60047BFDB44A777
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TdsLoginAnonymouslyButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TdsLoginAnonymouslyButton.ContentText
+msgctxt ",4EB7B26B45162D90F60047BFDB44A777"
+msgid "游客登录"
+msgstr ""
+
+#. Key:	572AF9C143FBAAE2FF6FC084E8E237EB
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.TextBlock_1024.Text
+#: /Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.TextBlock_1024.Text
+msgctxt ",572AF9C143FBAAE2FF6FC084E8E237EB"
+msgid "© 2018 Epic Games, Inc.  Epic, Epic Games, Unreal, Unreal Engine 4, UE4 and their respective logos are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere.  All rights reserved."
+msgstr "© 2018 Epic Games, Inc. Epic、Epic Games、Unreal、Unreal Engine 4、UE4 及其各自的徽标是 Epic Games, Inc. 在美国和其他地方的商标或注册商标。"
+
+#. Key:	573A1F2441704AFD151CF8833043C1B2
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.MultiPlayerButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.MultiPlayerButton.ContentText
+msgctxt ",573A1F2441704AFD151CF8833043C1B2"
+msgid "联网游戏"
+msgstr ""
+
+#. Key:	67E350204EF43AA5882FFD8A3EC87AA5
+#. SourceLocation:	/Game/Items/Skills/Skill_Combust.Skill_Combust.ItemDescription
+#: /Game/Items/Skills/Skill_Combust.Skill_Combust.ItemDescription
+msgctxt ",67E350204EF43AA5882FFD8A3EC87AA5"
+msgid "Release Your Inner Fire"
+msgstr "释放你内心的火焰"
+
+#. Key:	6980D0294591B499719A5EB41484FEF0
+#. SourceLocation:	/Game/Items/Potions/Potion_Mana.Potion_Mana.ItemDescription
+#: /Game/Items/Potions/Potion_Mana.Potion_Mana.ItemDescription
+msgctxt ",6980D0294591B499719A5EB41484FEF0"
+msgid "Recovers 50% MP"
+msgstr "MP恢复50%"
+
+#. Key:	698A5D5440A9AA9FD6FB5798AE0EEB5E
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Hammer_1.Weapon_Hammer_1.ItemName
+#: /Game/Items/Weapons/Weapon_Hammer_1.Weapon_Hammer_1.ItemName
+msgctxt ",698A5D5440A9AA9FD6FB5798AE0EEB5E"
+msgid "Spiked Blunt"
+msgstr "尖刺钝器"
+
+#. Key:	6B3FAFDF4BB26A8E7727F6AC422D235F
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_PauseMenu.WB_PauseMenu_C:WidgetTree.TextBlock_0.Text
+#: /Game/Blueprints/WidgetBP/WB_PauseMenu.WB_PauseMenu_C:WidgetTree.TextBlock_0.Text
+msgctxt ",6B3FAFDF4BB26A8E7727F6AC422D235F"
+msgid "Pause"
+msgstr "暂停"
+
+#. Key:	6EB51B5E45C0FBB6EF3F77B237E96003
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.SupportButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.SupportButton.ContentText
+msgctxt ",6EB51B5E45C0FBB6EF3F77B237E96003"
+msgid "客服"
+msgstr ""
+
+#. Key:	723F0C7140DD24161489E581DC23EE19
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock_2.Text
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock_2.Text
+msgctxt ",723F0C7140DD24161489E581DC23EE19"
+msgid "日"
+msgstr ""
+
+#. Key:	72B1BBF84F827F42444741925FEC3629
+#. SourceLocation:	/Game/Items/Potions/Potion_Mana.Potion_Mana.ItemName
+#: /Game/Items/Potions/Potion_Mana.Potion_Mana.ItemName
+msgctxt ",72B1BBF84F827F42444741925FEC3629"
+msgid "Mana Potion"
+msgstr "法力药水"
+
+#. Key:	730676FF41EC73507CD73DAA4D8E7BE8
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Hammer_3.Weapon_Hammer_3.ItemDescription
+#: /Game/Items/Weapons/Weapon_Hammer_3.Weapon_Hammer_3.ItemDescription
+msgctxt ",730676FF41EC73507CD73DAA4D8E7BE8"
+msgid "The Almighty"
+msgstr "全能者"
+
+#. Key:	76563E4A41EED38578122CAA306C76EB
+#. SourceLocation:	/Game/Items/Pickups/WeaponPickups/Assets/Weapon_PickUp.Weapon_PickUp.ItemDescription
+#: /Game/Items/Pickups/WeaponPickups/Assets/Weapon_PickUp.Weapon_PickUp.ItemDescription
+msgctxt ",76563E4A41EED38578122CAA306C76EB"
+msgid "Has a limited time!"
+msgstr "限时！"
+
+#. Key:	76E30AC948AB9973EC633E808413EBC3
+#. SourceLocation:	/Game/Items/Tokens/Token_Souls.Token_Souls.ItemName
+#: /Game/Items/Tokens/Token_Souls.Token_Souls.ItemName
+msgctxt ",76E30AC948AB9973EC633E808413EBC3"
+msgid "Souls"
+msgstr "灵魂"
+
+#. Key:	792B7AAF487B6E2F5D2AD9AA74382AF2
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.TextBlock_3.Text
+#: /Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.TextBlock_3.Text
+msgctxt ",792B7AAF487B6E2F5D2AD9AA74382AF2"
+msgid "Camera Shake"
+msgstr "相机抖动"
+
+#. Key:	7C9C464A4E321160AC4910A324C28D84
+#. SourceLocation:	/Game/Blueprints/WidgetBP/HUD/WB_InputLabel.Default__WB_InputLabel_C.Text
+#: /Game/Blueprints/WidgetBP/HUD/WB_InputLabel.Default__WB_InputLabel_C.Text
+msgctxt ",7C9C464A4E321160AC4910A324C28D84"
+msgid "SPACE"
+msgstr "空间"
+
+#. Key:	8174696B4C17D7524969849B4BD39CF8
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_SelectLanguage.WB_SelectLanguage_C:WidgetTree.TextBlock_0.Text
+#: /Game/Blueprints/WidgetBP/WB_SelectLanguage.WB_SelectLanguage_C:WidgetTree.TextBlock_0.Text
+msgctxt ",8174696B4C17D7524969849B4BD39CF8"
+msgid "Select Your Language"
+msgstr "选择您的语言"
+
+#. Key:	81EB2FE044C9809C4499D7997F53D4F7
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardCategory_Wave.DisplayName
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardCategory_Wave.DisplayName
+msgctxt ",81EB2FE044C9809C4499D7997F53D4F7"
+msgid "关卡榜"
+msgstr ""
+
+#. Key:	83DA00E242929CC669686FB407ACF9E9
+#. SourceLocation:	/Game/Items/Skills/Skill_Meteor_2.Skill_Meteor_2.ItemName
+#: /Game/Items/Skills/Skill_Meteor_2.Skill_Meteor_2.ItemName
+msgctxt ",83DA00E242929CC669686FB407ACF9E9"
+msgid "Meteor Shower"
+msgstr "流星雨"
+
+#. Key:	84B6714840065277292F84A52CAF52AD
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Sword_3.Weapon_Sword_3.ItemName
+#: /Game/Items/Weapons/Weapon_Sword_3.Weapon_Sword_3.ItemName
+msgctxt ",84B6714840065277292F84A52CAF52AD"
+msgid "Knight Sword"
+msgstr "骑士剑"
+
+#. Key:	89C2738A4D59491F49A16AAE86B509C1
+#. SourceLocation:	/Game/Items/Potions/Potion_DeathsDoor.Potion_DeathsDoor.ItemDescription
+#: /Game/Items/Potions/Potion_DeathsDoor.Potion_DeathsDoor.ItemDescription
+msgctxt ",89C2738A4D59491F49A16AAE86B509C1"
+msgid "Recovers 50% HP & 50% Mana"
+msgstr "HP恢复50%"
+
+#. Key:	9254265A4138DC575C4A58AED2482FB0
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock_1.Text
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock_1.Text
+msgctxt ",9254265A4138DC575C4A58AED2482FB0"
+msgid "周"
+msgstr ""
+
+#. Key:	9333888745AB5E4402CCA2A81043DEE3
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.LeaderBoardButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.LeaderBoardButton.ContentText
+msgctxt ",9333888745AB5E4402CCA2A81043DEE3"
+msgid "排行榜"
+msgstr ""
+
+#. Key:	9393A2674368B22098DD3497215BA0F5
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.RateButton.ButtonText
+#: /Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.RateButton.ButtonText
+msgctxt ",9393A2674368B22098DD3497215BA0F5"
+msgid "Rate Us"
+msgstr ""
+
+#. Key:	9867AB644392579B5148F88BC521D6DE
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Axe_2.Weapon_Axe_2.ItemName
+#: /Game/Items/Weapons/Weapon_Axe_2.Weapon_Axe_2.ItemName
+msgctxt ",9867AB644392579B5148F88BC521D6DE"
+msgid "Molten Axe"
+msgstr ""
+
+#. Key:	9B0A2BF64FEFF96491145AB9C8FD2FB4
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock_110.Text
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardDetail.BP_LeaderboardDetail_C:WidgetTree.TextBlock_110.Text
+msgctxt ",9B0A2BF64FEFF96491145AB9C8FD2FB4"
+msgid "总计"
+msgstr ""
+
+#. Key:	9E5C7CDA4743D21A1D78868B41187F42
+#. SourceLocation:	/Game/Items/Skills/Skill_Combust.Skill_Combust.ItemName
+#: /Game/Items/Skills/Skill_Combust.Skill_Combust.ItemName
+msgctxt ",9E5C7CDA4743D21A1D78868B41187F42"
+msgid "Combust"
+msgstr ""
+
+#. Key:	A17642A74F949FF16433D5A241ABC422
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.DocsButton.ButtonText
+#: /Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.DocsButton.ButtonText
+msgctxt ",A17642A74F949FF16433D5A241ABC422"
+msgid "Documentation"
+msgstr ""
+
+#. Key:	A7A5296C4126C3C4084122A9DB53D154
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.ChineseButton.ButtonText
+#: /Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.ChineseButton.ButtonText
+msgctxt ",A7A5296C4126C3C4084122A9DB53D154"
+msgid "简体中文"
+msgstr ""
+
+#. Key:	AA5314834B9BA9F67DDD2C8419ECBAF0
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.BackButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.BackButton.ContentText
+msgctxt ",AA5314834B9BA9F67DDD2C8419ECBAF0"
+msgid "返回"
+msgstr ""
+
+#. Key:	ABF842DA4F6643C511985B967DB16E63
+#. SourceLocation:	/Game/Items/Potions/Potion_Health.Potion_Health.ItemDescription
+#: /Game/Items/Potions/Potion_Health.Potion_Health.ItemDescription
+msgctxt ",ABF842DA4F6643C511985B967DB16E63"
+msgid "Recovers 50% HP"
+msgstr ""
+
+#. Key:	B5E0C2F848B34C2403E51782A3253463
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_SkipIntro.WB_SkipIntro_C:ExecuteUbergraph_WB_SkipIntro [Script Bytecode]
+#: /Game/Blueprints/WidgetBP/WB_SkipIntro.WB_SkipIntro_C:ExecuteUbergraph_WB_SkipIntro [Script Bytecode]
+msgctxt ",B5E0C2F848B34C2403E51782A3253463"
+msgid "Press ENTER to Skip Intro"
+msgstr ""
+
+#. Key:	BC64927745D4EC6B5473608A6E2B128D
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardType_Week.DisplayName
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_Leaderboard.BP_Leaderboard_C:WidgetTree.BP_LeaderboardType_Week.DisplayName
+msgctxt ",BC64927745D4EC6B5473608A6E2B128D"
+msgid "周"
+msgstr ""
+
+#. Key:	BED925A04CF068726354C094D458C750
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Axe.Weapon_Axe.ItemName
+#: /Game/Items/Weapons/Weapon_Axe.Weapon_Axe.ItemName
+msgctxt ",BED925A04CF068726354C094D458C750"
+msgid "Cleaver"
+msgstr ""
+
+#. Key:	BFAA29B14DBE69646A9D12A28390A98E
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_InGame_Finish.WB_InGame_Finish_C:WidgetTree.TextBlock_168.Text
+#: /Game/Blueprints/WidgetBP/WB_InGame_Finish.WB_InGame_Finish_C:WidgetTree.TextBlock_168.Text
+msgctxt ",BFAA29B14DBE69646A9D12A28390A98E"
+msgid "Total Kills"
+msgstr ""
+
+#. Key:	C0AA2B0341797F01EF494EAE44A9122B
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.TextBlock_4.Text
+#: /Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.TextBlock_4.Text
+msgctxt ",C0AA2B0341797F01EF494EAE44A9122B"
+msgid "Vibration"
+msgstr ""
+
+#. Key:	C3DB551542AB83E09AB28CA8AF7D8720
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Axe_2.Weapon_Axe_2.ItemDescription
+#: /Game/Items/Weapons/Weapon_Axe_2.Weapon_Axe_2.ItemDescription
+msgctxt ",C3DB551542AB83E09AB28CA8AF7D8720"
+msgid "Firey Edges"
+msgstr ""
+
+#. Key:	C48ABB7F4B83723D57AB6AA52908CD79
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TextBlock_591.Text
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TextBlock_591.Text
+msgctxt ",C48ABB7F4B83723D57AB6AA52908CD79"
+msgid "体验 TapSDK 功能"
+msgstr "体验TapSDK 功能"
+
+#. Key:	C5C995194DF520106ED21787C098AFEE
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Sword_2.Weapon_Sword_2.ItemDescription
+#: /Game/Items/Weapons/Weapon_Sword_2.Weapon_Sword_2.ItemDescription
+msgctxt ",C5C995194DF520106ED21787C098AFEE"
+msgid "Sharp and dangerous"
+msgstr "尖锐而危险"
+
+#. Key:	CBFC601A49703647DCF577AAC78997C7
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_InGame_Finish.WB_InGame_Finish_C:WidgetTree.TextBlock_170.Text
+#: /Game/Blueprints/WidgetBP/WB_InGame_Finish.WB_InGame_Finish_C:WidgetTree.TextBlock_170.Text
+msgctxt ",CBFC601A49703647DCF577AAC78997C7"
+msgid "Time Bonus"
+msgstr "时间红利"
+
+#. Key:	CFD9809843F3DC1168E5109DEE7BCC15
+#. SourceLocation:	/Game/Items/Potions/Potion_Health.Potion_Health.ItemName
+#: /Game/Items/Potions/Potion_Health.Potion_Health.ItemName
+msgctxt ",CFD9809843F3DC1168E5109DEE7BCC15"
+msgid "Health Potion"
+msgstr "健康药水"
+
+#. Key:	D500C0AF4827C98FC01FF0BB82C45599
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TdsLoginWithTapButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TdsLoginWithTapButton.ContentText
+msgctxt ",D500C0AF4827C98FC01FF0BB82C45599"
+msgid "登录"
+msgstr ""
+
+#. Key:	D78D38E142F176CA2170E8812F150800
+#. SourceLocation:	/Game/Items/Skills/Skill_FireBall.Skill_FireBall.ItemName
+#: /Game/Items/Skills/Skill_FireBall.Skill_FireBall.ItemName
+msgctxt ",D78D38E142F176CA2170E8812F150800"
+msgid "Fire Ball"
+msgstr "火球"
+
+#. Key:	D97C73324424F3C459544EBCDC7D357D
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TextBlock_170.Text
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.TextBlock_170.Text
+msgctxt ",D97C73324424F3C459544EBCDC7D357D"
+msgid "房间列表"
+msgstr ""
+
+#. Key:	E2E9929546B8A68402B647961B8C8C51
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Hammer_1.Weapon_Hammer_1.ItemDescription
+#: /Game/Items/Weapons/Weapon_Hammer_1.Weapon_Hammer_1.ItemDescription
+msgctxt ",E2E9929546B8A68402B647961B8C8C51"
+msgid "Sharp Spikes"
+msgstr "锋利的尖刺"
+
+#. Key:	E4FA8EC94038FF48BD259F8A218927E0
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_InGame_Finish.WB_InGame_Finish_C:ExecuteUbergraph_WB_InGame_Finish [Script Bytecode]
+#: /Game/Blueprints/WidgetBP/WB_InGame_Finish.WB_InGame_Finish_C:ExecuteUbergraph_WB_InGame_Finish [Script Bytecode]
+msgctxt ",E4FA8EC94038FF48BD259F8A218927E0"
+msgid "{1}s"
+msgstr "{1}"
+
+#. Key:	E9B1407F425601FA4F9D0B9B4EEFC1B1
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.RemainingTime.Text
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.RemainingTime.Text
+msgctxt ",E9B1407F425601FA4F9D0B9B4EEFC1B1"
+msgid "不限时"
+msgstr ""
+
+#. Key:	E9F10CFB4697C1F3CAECCAB573C1D0F9
+#. SourceLocation:	/Game/Items/Weapons/Weapon_Hammer_3.Weapon_Hammer_3.ItemName
+#: /Game/Items/Weapons/Weapon_Hammer_3.Weapon_Hammer_3.ItemName
+msgctxt ",E9F10CFB4697C1F3CAECCAB573C1D0F9"
+msgid "War Hammer"
+msgstr "战锤"
+
+#. Key:	EFEC4BD743D6809A28EEC9B98546180A
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.TextBlock_1.Text
+#: /Game/Blueprints/WidgetBP/WB_OptionsScreen.WB_OptionsScreen_C:WidgetTree.TextBlock_1.Text
+msgctxt ",EFEC4BD743D6809A28EEC9B98546180A"
+msgid "Sound FX"
+msgstr "音效"
+
+#. Key:	F42C7BB94CC7F685D6FB9BA5063DD9B1
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel_C:ExecuteUbergraph_WB_PointsLabel [Script Bytecode]
+#: /Game/Blueprints/WidgetBP/WB_PointsLabel.WB_PointsLabel_C:ExecuteUbergraph_WB_PointsLabel [Script Bytecode]
+msgctxt ",F42C7BB94CC7F685D6FB9BA5063DD9B1"
+msgid "{1}"
+msgstr ""
+
+#. Key:	F76B3DFC48004CEC72CF42B97E3CF579
+#. SourceLocation:	/Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.BillboardButton.ContentText
+#: /Game/Blueprints/WidgetBP/WB_Title.WB_Title_C:WidgetTree.BillboardButton.ContentText
+msgctxt ",F76B3DFC48004CEC72CF42B97E3CF579"
+msgid "公告"
+msgstr ""
+
+#. Key:	AUTOPLAY
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,AUTOPLAY"
+msgid "AUTOPLAY"
+msgstr "自动播放"
+
+#. Key:	BACK
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,BACK"
+msgid "BACK"
+msgstr "返回"
+
+#. Key:	CANCEL
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,CANCEL"
+msgid "CANCEL"
+msgstr "取消"
+
+#. Key:	CONFIRM
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,CONFIRM"
+msgid "CONFIRM"
+msgstr "确认"
+
+#. Key:	Health
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,Health"
+msgid "Health"
+msgstr "健康"
+
+#. Key:	Health+Mana
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,Health+Mana"
+msgid "Health + Mana"
+msgstr "生命法力"
+
+#. Key:	MAINMENU
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,MAINMENU"
+msgid "MAIN MENU"
+msgstr "主菜单"
+
+#. Key:	Mana
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,Mana"
+msgid "Mana"
+msgstr "法力"
+
+#. Key:	OPTIONS
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,OPTIONS"
+msgid "OPTIONS"
+msgstr "选项"
+
+#. Key:	POTION
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,POTION"
+msgid "POTION"
+msgstr "药水"
+
+#. Key:	SKILL
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,SKILL"
+msgid "SKILL"
+msgstr "技能"
+
+#. Key:	WEAPON
+#. SourceLocation:	/Game/Blueprints/WidgetBP/CommonWords.CommonWords
+#: /Game/Blueprints/WidgetBP/CommonWords.CommonWords
+msgctxt "CommonWords,WEAPON"
+msgid "WEAPON"
+msgstr "武器"
+
+#. Key:	AgeRangeFormat
+#. SourceLocation:	Source/ActionRPG/UI/Menu/TitleWidget.cpp:59
+#: Source/ActionRPG/UI/Menu/TitleWidget.cpp:59
+msgctxt "TapSDKDemo,AgeRangeFormat"
+msgid "{0}+"
+msgstr "{0}"
+
+#. Key:	DurationLimit
+#. SourceLocation:	Source/ActionRPG/GameFramework/RPGGameInstance.cpp:276
+#: Source/ActionRPG/GameFramework/RPGGameInstance.cpp:276
+msgctxt "TapSDKDemo,DurationLimit"
+msgid "可玩时长耗尽"
+msgstr "可玩时长袖尽"
+
+#. Key:	GameOverTimeOut
+#. SourceLocation:	Source/ActionRPG/GameFramework/RPGGameMode.cpp:29
+#: Source/ActionRPG/GameFramework/RPGGameMode.cpp:29
+msgctxt "TapSDKDemo,GameOverTimeOut"
+msgid "Game Over"
+msgstr "游戏结束"
+
+#. Key:	LoginFailed
+#. SourceLocation:	Source/ActionRPG/GameFramework/RPGGameInstance.cpp:234
+#: Source/ActionRPG/GameFramework/RPGGameInstance.cpp:234
+msgctxt "TapSDKDemo,LoginFailed"
+msgid "登录失败"
+msgstr ""
+
+#. Key:	PeriodRestrict
+#. SourceLocation:	Source/ActionRPG/GameFramework/RPGGameInstance.cpp:279
+#: Source/ActionRPG/GameFramework/RPGGameInstance.cpp:279
+msgctxt "TapSDKDemo,PeriodRestrict"
+msgid "达到宵禁时长"
+msgstr ""
+
+#. Key:	RealNameStop
+#. SourceLocation:	Source/ActionRPG/GameFramework/RPGGameInstance.cpp:282
+#: Source/ActionRPG/GameFramework/RPGGameInstance.cpp:282
+msgctxt "TapSDKDemo,RealNameStop"
+msgid "请进行实名认证"
+msgstr ""
+
+#. Key:	RemainingTimeFormat
+#. SourceLocation:	Source/ActionRPG/UI/Menu/TitleWidget.cpp:66
+#: Source/ActionRPG/UI/Menu/TitleWidget.cpp:66
+msgctxt "TapSDKDemo,RemainingTimeFormat"
+msgid "限时：{0}秒"
+msgstr "限制时间：{0}秒"
+
+#. Key:	Unlimited
+#. SourceLocation:	Source/ActionRPG/UI/Menu/TitleWidget.cpp:62
+#: Source/ActionRPG/UI/Menu/TitleWidget.cpp:62
+msgctxt "TapSDKDemo,Unlimited"
+msgid "不限时"
+msgstr ""
+
+#. Key:	TextBlockDefaultValue
+#. SourceLocation:	/Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardType.BP_LeaderboardType_C:WidgetTree.TextBlock_77.Text
+#: /Game/Blueprints/WidgetBP/Leaderboard/BP_LeaderboardType.BP_LeaderboardType_C:WidgetTree.TextBlock_77.Text
+msgctxt "UMG,TextBlockDefaultValue"
+msgid "Text Block"
+msgstr "文本块"
+
+

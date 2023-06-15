@@ -52,6 +52,9 @@ protected:
 
 	UPROPERTY(BlueprintReadOnly)
 	FLeaderboardData SavedData;
+
+	UPROPERTY(EditAnywhere)
+	UTexture2D* EmptyUserIcon;
 };
 
  

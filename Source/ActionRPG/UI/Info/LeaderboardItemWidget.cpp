@@ -19,7 +19,14 @@ void ULeaderboardItemWidget::UpdateWidget(const FLeaderboardData& Data, bool bIs
 	FGameStatic::FindOrDownloadTexture(Data.AvatarUrl,
 		FTextureDelegate::CreateWeakLambda(this, [this](UTexture2D* Tex)
 		{
-			AvatarImage->SetBrushFromTexture(Tex);
+			if (Tex)
+			{
+				AvatarImage->SetBrushFromTexture(Tex);
+			}
+			else
+			{
+				AvatarImage->SetBrushFromTexture(EmptyUserIcon);
+			}
 		}));
 	NickNameTextBlock->SetText(FText::FromString(Data.NickName));
 	ValueTextBlock->SetText(FText::AsNumber(Data.Value, &FNumberFormattingOptions::DefaultNoGrouping()));

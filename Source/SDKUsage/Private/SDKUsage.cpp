@@ -16,6 +16,7 @@
 #include "TapBillboardCommon.h"
 #include "TapCommon.h"
 #include "TapMoment.h"
+#include "TapUECommon.h"
 #include "TDSUser.h"
 #include "TUJsonHelper.h"
 #include "TULanguage.h"
@@ -657,7 +658,10 @@ void FTdsImpl::UpdateSdkLanguage()
 {
 	FString CultureString = FInternationalization::Get().GetCurrentCulture()->GetName();
 	ELanguageType Type = FindLanguageString(CultureString);
-	TULanguage::SetCurrentType(Type);
+	TapUECommon::SetLanguage(Type);
+	AchievementsPtr->InitData(
+		FSimpleDelegate(),
+		FTUError::FDelegate());
 }
 
 ELanguageType FTdsImpl::FindLanguageString(const FString& String) const

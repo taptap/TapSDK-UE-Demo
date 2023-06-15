@@ -9,6 +9,7 @@
 class UButton;
 class UTextBlock;
 class UWidgetAnimation;
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FSimpleDyanmicMultiDelegate);
 /**
  * 
  */
@@ -17,30 +18,29 @@ class ACTIONRPG_API UTitleButton : public UUserWidget
 {
 	GENERATED_BODY()
 public:
-	FSimpleDelegate OnClicked;
+	UPROPERTY(BlueprintAssignable)
+	FSimpleDyanmicMultiDelegate OnClicked;
 
-	virtual void SetIsEnabled(bool bInIsEnabled) override;
-	
 	void SetButtonText(const FText& NewText);
 
-	UPROPERTY(Meta = (BindWidget))
-	UButton* Button;
+	void UpdateRedDot(bool bHasRedDot);
 	
 protected:
 	virtual void NativeOnInitialized() override;
 	
 	virtual void NativePreConstruct() override;
 
-	virtual void NativeConstruct() override;
-
 	UFUNCTION()
-	void OnButtonClicked();
+	void OnButtonClickedEvent();
 	
 	UPROPERTY(Meta = (BindWidget), BlueprintReadOnly)
 	UTextBlock* ButtonText;
 
-	UPROPERTY(Transient, Meta = (BindWidgetAnim))
-	UWidgetAnimation* EnableAnim;
+	UPROPERTY(Meta = (BindWidget))
+	UButton* Button;
+	
+	UPROPERTY(Transient, Meta = (BindWidgetAnimOptional))
+	UWidgetAnimation* RedDotAnim;
 
 	UPROPERTY(EditAnywhere)
 	FText ContentText;

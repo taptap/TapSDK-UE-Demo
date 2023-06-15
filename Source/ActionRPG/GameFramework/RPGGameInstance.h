@@ -136,19 +136,12 @@ public:
 	bool ClientLeaveSession();
 
 protected:
-	UFUNCTION(BlueprintImplementableEvent)
-	void HandleRefreshSessions(const TArray<FDSInfo>& Sessions);
-
-	UFUNCTION(BlueprintImplementableEvent)
-	void HandleJoinSession(const FDSInfo& Info);
-
-	UFUNCTION(BlueprintImplementableEvent)
-	void HandleLeaveSession();
-
 	void HandleSocketCallback(EMessageType Type, TSharedPtr<FJsonObject> JsonObject);
 
 	virtual void Init() override;
 
+	virtual void OnStart() override;
+	
 	virtual void Shutdown() override;
 
 	FTimerHandle RefreshTimer;

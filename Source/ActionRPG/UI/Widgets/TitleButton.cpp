@@ -6,29 +6,30 @@
 #include "Components/Button.h"
 #include "Components/TextBlock.h"
 
-void UTitleButton::SetIsEnabled(bool bInIsEnabled)
-{
-	Super::SetIsEnabled(bInIsEnabled);
-
-	if (bInIsEnabled)
-	{
-		PlayAnimationForward(EnableAnim);
-	}
-	else
-	{
-		PlayAnimationReverse(EnableAnim);
-	}
-}
 
 void UTitleButton::SetButtonText(const FText& NewText)
 {
 	ButtonText->SetText(NewText);
 }
 
+void UTitleButton::UpdateRedDot(bool bHasRedDot)
+{
+	if(!RedDotAnim) return;
+	
+	if (bHasRedDot)
+	{
+		PlayAnimation(RedDotAnim, 0.f, 0);
+	}
+	else
+	{
+		StopAnimation(RedDotAnim);
+	}
+}
+
 void UTitleButton::NativeOnInitialized()
 {
 	Super::NativeOnInitialized();
-	Button->OnClicked.AddDynamic(this, &UTitleButton::OnButtonClicked);
+	Button->OnClicked.AddDynamic(this, &UTitleButton::OnButtonClickedEvent);
 }
 
 void UTitleButton::NativePreConstruct()
@@ -37,20 +38,8 @@ void UTitleButton::NativePreConstruct()
 	SetButtonText(ContentText);
 }
 
-void UTitleButton::NativeConstruct()
-{
-	Super::NativeConstruct();
-	if (GetIsEnabled())
-	{
-		SetAnimationCurrentTime(EnableAnim, 0.5f);
-	}
-	else
-	{
-		SetAnimationCurrentTime(EnableAnim, 0.f);
-	}
-}
 
-void UTitleButton::OnButtonClicked()
+void UTitleButton::OnButtonClickedEvent()
 {
-	OnClicked.ExecuteIfBound();
+	OnClicked.Broadcast();
 }
